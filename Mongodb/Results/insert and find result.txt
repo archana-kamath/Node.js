@@ -1,0 +1,72 @@
+Microsoft Windows [Version 10.0.19041.329]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\leovo>cd mongodb
+The system cannot find the path specified.
+
+C:\Users\leovo>cd mongo
+The system cannot find the path specified.
+
+C:\Users\leovo>cd Desktop
+
+C:\Users\leovo\Desktop>cd mongo
+
+C:\Users\leovo\Desktop\mongo>node insert
+(node:14900) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Connected to mongodb://localhost:27017/fruits
+(node:14900) DeprecationWarning: collection.insert is deprecated. Use insertOne, insertMany or bulkWrite instead.
+2 docs inserted
+
+C:\Users\leovo\Desktop\mongo>node find
+(node:1884) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Connected to mongodb://localhost:27017/fruits
+[
+  { _id: 5f108b7e4b026b31b01ad2c4, name: 'Red apple', color: 'Red' },
+  {
+    _id: 5f108b7e4b026b31b01ad2c5,
+    name: 'Green apple',
+    color: 'Green'
+  },
+  {
+    _id: 5f108bdbfc2d83070cd75083,
+    name: 'Custurd apple',
+    color: 'Green01'
+  },
+  {
+    _id: 5f108bdbfc2d83070cd75084,
+    name: 'Kashmiri apple',
+    color: 'Red01'
+  },
+  {
+    _id: 5f108c0901efb931f82f384a,
+    name: 'Custurd apple',
+    color: 'Green01'
+  },
+  {
+    _id: 5f108c0901efb931f82f384b,
+    name: 'Kashmiri apple',
+    color: 'Red01'
+  },
+  {
+    _id: 5f108dbabd1c6b1e3861368c,
+    name: 'Custurd apple',
+    color: 'Green01'
+  },
+  {
+    _id: 5f108dbabd1c6b1e3861368d,
+    name: 'Kashmiri apple',
+    color: 'Red01'
+  },
+  {
+    _id: 5f11b5071ecb373a349a6c39,
+    name: 'Custurd apple',
+    color: 'Green01'
+  },
+  {
+    _id: 5f11b5071ecb373a349a6c3a,
+    name: 'Kashmiri apple',
+    color: 'Red01'
+  }
+]

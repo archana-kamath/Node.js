@@ -1,0 +1,41 @@
+C:\Users\leovo\Desktop\mongo>node remove
+(node:6316) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Connected to mongodb://localhost:27017/fruits
+(node:6316) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+Deleted successfully - {"result":{"n":4,"ok":1},"connection":{"id":0,"host":"localhost","port":27017},"n":4,"ok":1}
+
+C:\Users\leovo\Desktop\mongo>node find
+(node:11820) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Connected to mongodb://localhost:27017/fruits
+[
+  {
+    _id: 5f108b7e4b026b31b01ad2c5,
+    name: 'Green apple',
+    color: 'Green'
+  },
+  {
+    _id: 5f108bdbfc2d83070cd75084,
+    name: 'Kashmiri apple',
+    color: 'Red01'
+  },
+  {
+    _id: 5f108c0901efb931f82f384b,
+    name: 'Kashmiri apple',
+    color: 'Red01'
+  },
+  {
+    _id: 5f108dbabd1c6b1e3861368d,
+    name: 'Kashmiri apple',
+    color: 'Red01'
+  },
+  {
+    _id: 5f11b5071ecb373a349a6c3a,
+    name: 'Kashmiri apple',
+    color: 'Red01'
+  }
+]
+
+C:\Users\leovo\Desktop\mongo>
+

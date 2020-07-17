@@ -1,0 +1,33 @@
+C:\Program Files\MongoDB\Server\4.2>cd bin
+
+C:\Program Files\MongoDB\Server\4.2\bin>mongo
+MongoDB shell version v4.2.8
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("5dac1f2d-aafd-400e-acd9-b39fad01f39c") }
+MongoDB server version: 4.2.8
+Server has startup warnings:
+2020-07-16T21:45:51.219+0530 I  CONTROL  [initandlisten]
+2020-07-16T21:45:51.219+0530 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2020-07-16T21:45:51.219+0530 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2020-07-16T21:45:51.220+0530 I  CONTROL  [initandlisten]
+---
+Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+and anyone you share the URL with. MongoDB may use this information to make product
+improvements and to suggest MongoDB products and deployment options to you.
+
+To enable free monitoring, run the following command: db.enableFreeMonitoring()
+To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+
+> db
+test
+> use fruirs
+switched to db fruirs
+> use fruits
+switched to db fruits
+> db.apples.find().pretty()
+> db.fruits.find().pretty()
+>

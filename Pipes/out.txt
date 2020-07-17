@@ -1,0 +1,1 @@
+Pipe demo from ip.txt to out.txt
